@@ -32,44 +32,158 @@
 
   #banner_part {
     padding-top: 80px;
+  }
+
+
+  .Run {
+    margin-top: 180px;
+  }
+
+  .Run .img img {
+    width: 80% !important;
+  }
+
+
+  #sopnser_head {
+    margin-top: 180px;
+    padding-bottom: 100px !important;
+  }
+.sape-img img{
+  display: none;
+}
+  .sponser {
+    flex-wrap: wrap;
+    /* background-color: red; */
+    justify-content: space-around;
+
+  }
+
+  .sponser img {
+    margin-left: 0;
+    margin-top: 15px;
+  }
+
+  #business_part .bus_text h2 {
+
+    font-size: 30px;
+    line-height: 35px;
+}
+
+.bus_text span {
+  font-size: 30px;
+}
+
+  .bus-img {
+    margin-top: 35px;
+  }
+
+  .bus-img img{
+    width: 100%;
+  }
+
+  .Infinity_head{
+    padding-top: 50px;
+  }
+  #framework_part{
+    padding-top: 220px;
+  }
+    .framework_head{
+  padding-top: 50px;
+}
+
+  .framework_head h2,
+  .framework_head span {
+    font-size: 22px;
+    line-height: 35px;
+  }
+
+  .down-text h3 {
+    font-size: 22px;
+    line-height: 35px;
+  }
+
+  .down-text a {
+    margin-top: 30px;
+  }
+
+
+
+  #Invest_part {
+    padding-top: 0;
+    height: 400px;
 }
 
 
-.Run {
-  /* margin-top: 180px; */
-}
 
-.Run .img img{
-  width: 80% !important;
-}
-
-
-#sopnser_head{
-  margin-top: 230px;
-  padding-bottom: 100px !important;
-}
-
-.sponser{
-  justify-content: space-around !important; 
-  flex-wrap: wrap;
-  
-}
-
-.sponser img {
-  margin-left: 0; 
-padding: 10px 0;
+.card-men{
+  display: none;
 }
 
 
 
+.help-img img{
+  width: 100%;
+}
+
+.help_down {
+  padding-top: 20px;
+  margin-left: 0;
+}
+
+.side-img-main {
+  display: none;
+}
+
+#Email_part {
+  width: 100%;
+  padding: 500px 0 0;
+}
+
+.back-img{
+  display: none;
+}
 
 
+.email {
+	width: 100%;
+	padding: 50px 0 !important;
+	padding-bottom: 40px;
+	position: static;
+	left:0px;
+	top: 0px;
+}
+.form-control {
+  padding-left: 15px;
+  width: 100% !important;
+  color: white !important;
+  margin-left: 0;
+  background: rgba(151, 151, 151, 0.155);
+}
 
+#footer_part {
+  padding: 100px 0px 35px;
+}
 
+.dot{
+  display: none;
+}
 
+.footer_head h4 {
+  margin-left: 0px;
+  text-align: center;
+  padding-bottom: 35px;
+}
+.head_icon{
+  float: none;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
 
-
-
+.footer_text{
+  margin: 0;
+  padding-top: 30px;
+}
 
 }
 
