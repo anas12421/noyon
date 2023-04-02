@@ -1,0 +1,101 @@
+@media (max-width: 575.98px) {
+
+  #heder_part {
+    padding-top: 40px;
+  }
+
+  .manu_part button i {
+    color: white;
+    font-size: 22px;
+  }
+
+  .navbar-toggler:focus {
+    box-shadow: none;
+  }
+
+  .login_part {
+    float: none;
+    display: flex;
+    justify-content: center;
+  }
+
+  .manu_part ul {
+    padding-top: 25px;
+  }
+
+  .manu_part ul li a {
+    margin: 0px;
+    font-size: 15px;
+
+  }
+
+
+  #banner_part {
+    padding-top: 80px;
+}
+
+
+.Run {
+  /* margin-top: 180px; */
+}
+
+.Run .img img{
+  width: 80% !important;
+}
+
+
+#sopnser_head{
+  margin-top: 230px;
+  padding-bottom: 100px !important;
+}
+
+.sponser{
+  justify-content: space-around !important; 
+  flex-wrap: wrap;
+  
+}
+
+.sponser img {
+  margin-left: 0; 
+padding: 10px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width:576px) and (max-width:767.98px) {}
+
+@media (min-width:768px) and (max-width:991.98px) {}

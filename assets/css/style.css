@@ -1,0 +1,1088 @@
+.BG {
+  background: linear-gradient(221.2deg, #C8660C 1.21%, #040D3E 51.58%);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 1364px;
+  /* background: #0F1145; */
+}
+
+
+* {
+  padding: 0;
+  margin: 0;
+  outline: 0;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+/* =========================================
+              Common css End
+  ======================================= */
+
+
+/* =========================================
+              Header part Start
+  ======================================= */
+#heder_part {
+  padding-top: 79px;
+
+}
+
+.overly {
+  width: 100%;
+  height: 100px;
+  background: linear-gradient(221.2deg, #C8660C 1.21%, #040D3E 51.58%);
+
+}
+
+.logo {
+  padding-top: 10px;
+}
+
+.nav-link:focus,
+.nav-link:hover {
+  color: #B5B5B5;
+}
+
+.manu_part ul {
+  display: flex;
+  justify-content: start;
+
+}
+
+.manu_part ul li a {
+  margin: 0px 10px;
+  font-family: 'Outfit', sans-serif;
+  font-weight: 600;
+  font-size: 12px;
+  padding-top: 11px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #B5B5B5;
+
+}
+
+.login_part {
+  float: right;
+
+}
+
+.login_part a {
+  margin: 17px 10px;
+  border: 1px solid #F2994A;
+  padding: 8px 25px;
+  border-radius: 4px;
+  font-family: 'Rubik', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #F2994A;
+  transition: all linear .2s;
+}
+
+.login_part a:hover {
+  background: #F2994A;
+  color: #FFFFFF;
+}
+
+/* =========================================
+              Header part End
+  ======================================= */
+
+
+/* =========================================
+              banner part Start
+  ======================================= */
+
+#banner_part {
+  padding-top: 200px;
+}
+
+.Text_part h1 {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 50px;
+  color: #99EFD0;
+}
+
+.Text_part p {
+  font-family: 'Outfit', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  color: #8476AA;
+  padding-top: 9px;
+}
+
+.Text_part .frast {
+  background: #F2994A;
+  padding: 13px 31px;
+  margin-right: 20px;
+  border-radius: 3px;
+  margin-top: 54px;
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  box-shadow: -11.09px 18.13px 36.6483px rgba(242, 153, 74, 0.13);
+
+}
+
+.Text_part .second_color {
+  background: #13C296;
+  padding: 13px 31px;
+  border-radius: 3px;
+  margin-top: 54px;
+  box-shadow: -11.09px 18.13px 36.6483px rgba(242, 153, 74, 0.13);
+  text-transform: uppercase;
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: 2px;
+  color: #ffffff;
+
+}
+
+.Text_part .video {
+  background: #361C5D;
+  padding: 38px 50px;
+  border-radius: 4px;
+  margin-top: 73px;
+  position: relative;
+}
+
+.venobox i {
+  color: #ffff;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 40px;
+
+}
+
+.Run {
+  position: relative;
+}
+
+.img img {
+  position: absolute;
+  left: 83px;
+  top: -113px;
+}
+
+.Text_part .video_text {
+  margin-top: 73px;
+
+}
+
+.Text_part h6 {
+  /* Paragraph */
+
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  /* or 138% */
+
+
+  /* T1 */
+
+  color: #8476AA;
+
+}
+
+.Text_part a {
+  /* Small Paragraph */
+
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  /* identical to box height, or 157% */
+
+
+  /* Neutral 4 */
+
+  color: #6D6D78;
+
+}
+
+/* =========================================
+              banner part End
+  ======================================= */
+
+
+/* =========================================
+              sopnser part start
+  ======================================= */
+#sopnser_head {
+  padding: 91px 0 117px;
+}
+
+.sponser img {
+  margin-left: 74px;
+  text-align: center;
+}
+
+/* =========================================
+              sopnser part End
+  ======================================= */
+
+
+
+
+/* =========================================
+              service part Start
+  ======================================= */
+#service_part {
+  padding-bottom: 5px;
+}
+
+.service-head h2 {
+  margin-bottom: 50px;
+  font-family: 'Outfit';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 42px;
+  line-height: 42px;
+  text-align: center;
+  color: #8476AA;
+}
+
+.ser-one {
+  margin-bottom: 35px;
+}
+
+.service-item {
+  margin-bottom: 30px;
+}
+
+.service-item h6 {
+  margin-left: 38px;
+  font-family: 'Outfit';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  color: #99EFD0;
+
+}
+
+.service-item p {
+  margin-left: 63px;
+  font-family: 'Outfit';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 22px;
+  color: #8476AA;
+}
+
+/* =========================================
+              service part End
+  ======================================= */
+
+
+
+
+/* =========================================
+              business part Start
+  ======================================= */
+#business_part {
+  padding-top: 146px;
+  background: #040D3E;
+  width: 100%;
+  height: 850px;
+
+
+}
+
+#business_part .bus_text h2 {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 50px;
+  /* or 119% */
+
+
+  /* T2 */
+
+  color: #99EFD0;
+}
+
+.bus_text span {
+  padding-left: 10px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 50px;
+  /* or 119% */
+
+
+  /* T1 */
+
+  color: #8476AA;
+}
+
+.bus_text p {
+  padding-top: 32px;
+  font-family: 'Outfit';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 28px;
+  /* or 187% */
+
+  letter-spacing: 0.5px;
+
+  /* T1 */
+
+  color: #8476AA;
+}
+
+.bus_text a {
+  padding-top: 57px;
+  background: #F2994A;
+  padding: 13px 31px;
+  border-radius: 3px;
+  margin-top: 54px;
+  box-shadow: -11.09px 18.13px 36.6483px rgba(242, 153, 74, 0.23);
+  text-transform: uppercase;
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: 2px;
+  color: #ffffff;
+
+}
+
+.bus-img {
+  margin-left: 50px;
+}
+
+.sape-img {
+  position: absolute;
+  left: -2px;
+  top: 1785px;
+}
+
+/* =========================================
+              business part End
+  ======================================= */
+
+
+
+
+/* =========================================
+              Infinity part Start
+  ======================================= */
+#Infinity_part {
+  background: #040D3E;
+  width: 100%;
+  height: 250px;
+  padding-bottom: 20px;
+
+}
+
+.Infinity_head h2 {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  /* identical to box height, or 117% */
+
+  text-align: center;
+  letter-spacing: 0.33px;
+
+  /* T2 */
+
+  color: #99EFD0;
+}
+
+.Infinity_head span {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  /* identical to box height, or 117% */
+
+  text-align: center;
+  letter-spacing: 0.33px;
+
+  /* Base */
+  padding-left: 10px;
+  color: #F2994A;
+}
+
+.para h6 {
+  padding-top: 30px;
+  text-align: center;
+  font-family: 'Outfit';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 20px;
+  /* or 133% */
+
+  text-align: center;
+  letter-spacing: 0.2px;
+
+  /* T1 */
+
+  color: #8476AA;
+}
+
+.para p {
+  font-family: 'Outfit';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 20px;
+  /* or 133% */
+
+  text-align: center;
+  letter-spacing: 0.2px;
+
+  /* T1 */
+
+  color: #8476AA;
+}
+
+.inf-icon {
+  padding-top: 48px;
+}
+
+.inf-icon p {
+  padding-top: 10px;
+  font-family: 'Outfit';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 20px;
+  /* or 133% */
+
+  text-align: center;
+  letter-spacing: 0.2px;
+
+  /* T1 */
+
+  color: #8476AA;
+
+}
+
+/* =========================================
+              Infinity part End
+  ======================================= */
+
+
+
+/* =========================================
+              framework part Start
+  ======================================= */
+#framework_part {
+  background: #040D3E;
+  width: 100%;
+  height: 690px;
+  padding-top: 122px;
+}
+
+.framework_head h2 {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 50px;
+  /* or 119% */
+
+  text-align: center;
+
+  /* T2 */
+
+  color: #99EFD0;
+
+
+}
+
+.framework_head span {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 50px;
+  padding-left: 10px;
+  padding-right: 10px;
+  /* or 119% */
+
+  text-align: center;
+
+  /* Base */
+
+  color: #F2994A;
+
+}
+
+.down-text h3 {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 50px;
+  /* or 119% */
+
+  text-align: center;
+
+  /* T2 */
+
+  color: #99EFD0;
+}
+
+.down-text a {
+  margin-top: 53px;
+  background: #F2994A;
+  padding: 13px 31px;
+  border-radius: 3px;
+  box-shadow: -11.09px 18.13px 36.6483px rgba(242, 153, 74, 0.23);
+  text-transform: uppercase;
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: 2px;
+  color: #ffffff;
+
+}
+
+/* =========================================
+              framework part End
+  ======================================= */
+
+
+/* =========================================
+              Invest  part Start
+  ======================================= */
+#Invest_part {
+  background: #040D3E;
+  width: 100%;
+  height: 690px;
+  padding-top: 138px;
+}
+
+.Invest_text h2 {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 50px;
+  /* or 119% */
+
+
+  /* T2 */
+
+  color: #99EFD0;
+}
+
+.Invest_text span {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 50px;
+  padding-left: 10px;
+  /* or 119% */
+
+
+  /* Base */
+
+  color: #F2994A;
+}
+
+.Invest_text p {
+  font-family: 'Outfit';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 28px;
+  padding-top: 22px;
+  /* or 187% */
+
+  letter-spacing: 0.5px;
+
+  /* T1 */
+
+  color: #8476AA;
+}
+
+.Invest_text a {
+  margin-top: 53px;
+  background: #F2994A;
+  padding: 13px 31px;
+  border-radius: 3px;
+  box-shadow: -11.09px 18.13px 36.6483px rgba(242, 153, 74, 0.23);
+  text-transform: uppercase;
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: 2px;
+  color: #ffffff;
+
+}
+
+.card-men {
+  position: relative;
+}
+
+.card-img {
+  position: absolute;
+  left: -685px;
+  top: -135px;
+}
+
+/* =========================================
+              Invest  part End
+  ======================================= */
+
+
+
+/* =========================================
+              Help part Start
+  ======================================= */
+#Help_part {
+  background: #040D3E;
+  width: 100%;
+  height: 400px;
+  padding-top: 5px;
+}
+
+.help_text {
+  padding-top: 87px;
+}
+
+.help_text h3 {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 32px;
+  /* or 123% */
+
+  letter-spacing: 0.325px;
+
+  /* T2 */
+
+  color: #99EFD0;
+}
+
+.help_text p {
+  padding-top: 30px;
+  font-family: 'Outfit';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 20px;
+  /* or 133% */
+
+  letter-spacing: 0.2px;
+
+  /* T1 */
+
+  color: #8476AA;
+}
+
+.help_down h6 {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 18px;
+  letter-spacing: 0.2px;
+
+  /* T2 */
+
+  color: #99EFD0;
+
+}
+
+.help_down span {
+  font-family: 'Outfit';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 20px;
+  /* or 133% */
+
+  letter-spacing: 0.2px;
+
+  /* T1 */
+
+  color: #8476AA;
+
+}
+
+.help_down {
+  padding-top: 50px;
+  margin-left: 18px;
+  z-index: 1;
+
+}
+
+.help_down img {
+  padding-bottom: 16px;
+
+}
+
+.help_text {
+  position: relative;
+  z-index: 1;
+}
+
+.side-img-main {
+  position: absolute;
+  right: -199px;
+  top: -98px;
+  transform: rotate(179deg);
+  z-index: -1;
+}
+
+/* =========================================
+              Help part End
+  ======================================= */
+
+
+
+
+/* =========================================
+              Email part Start
+  ======================================= */
+#Email_part {
+  background: #040D3E;
+  width: 100%;
+  padding: 118px 0 0px;
+
+}
+
+.email h3 {
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 43px;
+  /* identical to box height, or 119% */
+
+  text-align: center;
+
+  /* Base */
+
+  color: #F2994A;
+}
+
+.email p {
+  padding-bottom: 30px;
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  /* identical to box height, or 138% */
+
+  text-align: center;
+
+  /* Neutral 4 */
+
+  color: #95A1BB;
+}
+
+/* .form-control {
+  margin-left: 401px;
+  display: block;
+  width: 100%;
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #000000 !important;
+  background-color: rgba(246, 246, 246, 0.1);
+  background-clip: padding-box;
+  border: 0;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border-radius: 3px;
+
+} */
+.email {
+  background: rgba(60, 62, 125, 0.19);
+  backdrop-filter: blur(67px);
+  padding: 50px 156px;
+  padding-bottom: 40px;
+  position: absolute;
+  left: 129px;
+  top: -317px;
+}
+
+.text_Email {
+  position: relative;
+}
+
+.text_Email span {
+  padding-top: 1px;
+  font-family: 'Outfit';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  /* identical to box height, or 143% */
+
+  letter-spacing: 0.2px;
+
+  /* T1 */
+
+  color: #8476AA;
+}
+
+.form-control {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  padding: 1.375rem 2.75rem;
+
+  letter-spacing: 0.2px;
+
+  color: #FFFFFF !important;
+
+  opacity: 0.2;
+  margin-left: 100px;
+  background: rgba(151, 151, 151, 0.155);
+
+}
+
+.btn-outline-success {
+  color: #ffffff;
+  border-color: #F2994A;
+}
+
+.btn {
+  padding: .375rem 1.75rem;
+
+}
+
+.btn-outline-success:hover {
+  color: #fff;
+  background-color: #F2994A;
+  border-color: #F2994A;
+}
+
+.btn-outline-success {
+  background: #F2994A;
+}
+
+.form-control:focus {
+  /* color: #212529; */
+  /* background-color: #fff; */
+  /* border-color: #86b7fe; */
+  /* outline: 0; */
+  /* box-shadow: 0 0 0 .25rem rgba(13,110,253,.25); */
+  background: rgba(151, 151, 151, 0.155);
+}
+
+.me-2 {
+  margin-right: -4px !important;
+}
+
+
+
+/* =========================================
+              Email part End
+  ======================================= */
+
+
+
+/* =========================================
+              Footer part Start
+  ======================================= */
+#footer_part {
+  background: #040D3E;
+  width: 100%;
+  padding: 112px 0px 35px;
+  /* height: 550px; */
+}
+
+.head_icon {
+  float: right;
+}
+
+.head_icon a i {
+  margin: 0 6px;
+  margin-right: 10%;
+  color: #ffffff;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  background: rgba(246, 246, 246, 0.152);
+}
+
+
+.footer_head h4 {
+  margin-left: 134px;
+  padding-bottom: 86px;
+  font-family: 'Inter',sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 32px;
+  /* identical to box height, or 123% */
+
+  letter-spacing: 0.325px;
+
+  /* Base */
+
+  color: #F2994A;
+}
+
+.footer_text h6 {
+  padding-bottom: 15px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 18px;
+  letter-spacing: 0.2px;
+
+  color: #FFFFFF;
+}
+
+.footer_text {
+  margin-left: 134px;
+}
+
+.footer_text ul li a {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 31px;
+  letter-spacing: 0.2px;
+  color: #FFFFFF;
+}
+
+.Text_part .leran{
+  display: flex;
+}
+/* =========================================
+              Footer part End
+  ======================================= */
+
+
+  /* responsive device
+@media (max-width: 575.98px) {
+  #heder_part {
+    padding-top: 0;
+  }
+
+  .login_part {
+    margin: 20px 12px;
+  }
+
+  .navv .navbar-toggler:focus {
+    text-decoration: none;
+    outline: 0;
+    box-shadow: 0 0 0 0;
+  }
+
+  .manu_part ul {
+    margin-top: 10px;
+  }
+  .Text_part h1 {
+    font-size: 25px;
+    line-height: 41px;
+    color: #99EFD0;
+    text-align: center;
+    margin-top: -186px;
+  }
+  .Text_part p  {
+    font-size: 12px;
+    line-height: 22px;
+    text-align: center;
+  }
+
+  .Text_part .video {
+    margin-top: 45px;
+  }
+  .img img {
+    left: 37px;
+    top: -18px;
+     width: 68px;
+  }
+  .Text_part .video_text {
+    margin-top: 45px;
+  }
+  .Text_part h6 {
+   
+    font-size: 15px;
+    line-height: 22px;
+    text-align: center;
+    /* margin-top: -15px;
+  }
+
+} */
+
+/* responsive device */
